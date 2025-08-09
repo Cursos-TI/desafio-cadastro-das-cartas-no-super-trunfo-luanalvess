@@ -1,22 +1,96 @@
 #include <stdio.h>
-
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+char estado[20];
+char estado2[20];
+char codigo[20];
+char codigo2[20];
+char cidade[20];
+char cidade2[20];
+int população;
+int população2;
+float area;
+float area2;
+float pib;
+float pib2;
+int turistico;
+int turistico2;
 
+// perguntas da primeira carta:
+printf("primeira carta\n");
+
+printf("qual é o estado:\n");
+scanf("%s", &estado);
+
+printf("qual é o codigo\n");
+scanf("%s", &codigo);
+
+printf("qual é o nome da cidade\n");
+scanf("%s", &cidade);
+
+printf("tamanho de população:\n");
+scanf("%d", &população);
+
+printf("tamanho da area:\n");
+scanf("%f", &area);
+
+printf("pib:\n");
+scanf("%f", &pib);
+
+printf("numero de ponto turísticos:\n");
+scanf("%d", &turistico);
+
+printf(" \n");
+
+// perguntas da segunda carta:
+
+printf("segunda carta\n");
+
+printf("qual é o estado:\n");
+scanf("%s", &estado2);
+
+printf("qual é o codigo\n");
+scanf("%s", &codigo2);
+
+printf("qual é o nome da cidade\n");
+scanf("%s", &cidade2);
+
+printf("tamanho de população:\n");
+scanf("%d", &população2);
+
+printf("tamanho da area:\n");
+scanf("%f", &area2);
+
+printf("pib:\n");
+scanf("%f", &pib2);
+
+printf("numero de ponto turísticos:\n");
+scanf("%d", &turistico2);
+printf(" \n");
+printf(" \n");
+// imprimir a primeira carta
+printf("primeira carta\n");
+printf(" \n");
+printf("o estado é:%s\n", estado);
+printf("o codigo é:%s\n", codigo);
+printf("cidade:%s\n", cidade);
+printf("quantidade de população:%d\n", população);
+printf("tamanho da aréa:%f\n", area);
+printf("pib;%f\n", pib);
+printf("numero de potnos turisticos:%d\n", turistico);
+printf(" \n");
+printf(" \n");
+
+// imprimir a segunda carta
+printf("segunda carta\n");
+printf(" \n");
+printf("o estado é:%s\n", estado2);
+printf("o codigo é:%s\n", codigo2);
+printf("cidade:%s\n", cidade2);
+printf("quantidade de população:%d\n", população2);
+printf("tamanho da aréa:%f\n", area2);
+printf("pib;%f\n", pib2);
+printf("numero de potnos turisticos:%d", turistico2);
+    
+    // aluno: Luan da silva alves
     return 0;
 }
